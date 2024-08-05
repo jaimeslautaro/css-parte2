@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px black;
+    margin: 30px;
+    width: -webkit-fill-available;
+}
+article{
+    text-align: center;
+    padding: 75px;
+}
+p{
+    color: white;
+}
+#rojo{
+    background-color: red;
+}
+#azul{
+    background-color: blue;
+}
+#verde{
+    background-color: green;
+}
